@@ -14,6 +14,7 @@ public class DisplayManager {
 		glfwMakeContextCurrent(windowID);
 		createCapabilities();
 		if(debug) GLUtil.setupDebugMessageCallback();
+		glfwSwapInterval((vsync) ? 1 : 0);
 		return true;	
 	}
 	
