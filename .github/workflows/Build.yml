@@ -25,4 +25,4 @@ jobs:
     - name: Compile All Files
       run: |
         find -name "*.java" > sources.txt
-        javac @sources.txt
+        javac @sources.txt -classpath libs/LWJGL3.jar
