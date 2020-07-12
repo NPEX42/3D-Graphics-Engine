@@ -1,4 +1,3 @@
-![Maven Package](https://github.com/NPEX42/3D-Graphics-Engine/workflows/Maven%20Package/badge.svg)
 # 3D Graphics Engine - V1.0.0-ALPHA
 ----
 Dependencies:
